@@ -17,7 +17,7 @@ namespace WebApiFutboleando.Controllers
         {
             if (num == 1)
             {
-                ArbitroColegioDAL oArbitroColegioDAL= new ArbitroColegioDAL();
+                ArbitroColegioDAL oArbitroColegioDAL = new ArbitroColegioDAL();
                 return oArbitroColegioDAL.listarPorColegio(id);
             }else 
             {
