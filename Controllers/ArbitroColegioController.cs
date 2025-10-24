@@ -15,7 +15,6 @@ namespace WebApiFutboleando.Controllers
         // GET: ArbitroColegio
         public List<ArbitroColegioCLS> Get(int id, int num)
         {
-
             if (num == 1)
             {
                 ArbitroColegioDAL oArbitroColegioDAL = new ArbitroColegioDAL();
